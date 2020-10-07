@@ -37,6 +37,11 @@ public class Dog {
 					+ dog.age);
 		});
 		
-
+		
+		Hors h1 = new Hors();
+		h1.makeSound();
+		
+		
+		
 	}
 }
