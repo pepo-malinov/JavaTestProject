@@ -9,4 +9,14 @@ public class Animal {
 	public Animal father;
 	public boolean dead;
 	public Farm farm;
+
+	public Animal(String id,
+					String name,
+					boolean sex,
+					Farm farm) {
+		this.id = id;
+		this.name = name;
+		this.sex = sex;
+		this.farm = farm;
+	}
 }
